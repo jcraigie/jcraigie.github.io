@@ -1,25 +1,52 @@
 <!DOCTYPE html>
-<head>
-  <title>Your page title here</title>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="your-stylesheet-link-here.css">
-</head>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="../stylesheets/default.css"/>
+    <link type="text/css" rel="stylesheet" href="../stylesheets/blog.css"/>
+    <title>
+      John Craigie
+    </title>
+  </head>
+  <body>
+    <figure id="profile">
+      <a href=#><img src="imgs/Wireframe-index.png" alt="Profile picture and home button."/></a> <!-- profile picture and link to return home -->
+      <!-- used a handy picture as a placeholder -->
+    </figure>
+    <header>
+      <h1>John Craigie</h1>   <!-- or witty title -->
+      <!-- <h2><p>The personal page of John Craigie</p></h2> --> <!-- if witty title is used -->
+      <section id="header-links">
+      <figure id="header-link-imgs"><a href="https://twitter.com/ArinB"><img src="imgs/twitter.png" alt="Twitter"/></a></figure>    <!--!Social Media link 1 -->
+      <figure id="header-link-imgs"><a href=#><img src=# alt="imgs/twitter.png"/></a></figure>    <!--!Social Media link 2 placeholder -->
+      <figure id="header-link-imgs"><a href="https://github.com/jcraigie?tab=repositories"><img src="imgs/Github.png" alt="Github"/></a></figure>
+      </section>
+    </header>
+    <nav>
+      <section><a href=#>About me</a><br /></section>
+      <section><a href=#>Projects</a><br /></section>
+      <section><a href="/Blog-index.html">Blog</a><br /></section>
+      <section><a href=#>LinkedIn</a><br /></section>
+      <section><a href=#>Resume</a><br /></section> <!-- specifically mentioned in the wireframing assignment though may be redundant with the linkedin being present -->
+      <section><a href="mailto:jcraigie@cox.net">Contact me</a></section>
+    </nav>
+    <div id="blog">
+      <h1>Version Control</h1>
+      <h4>1/3/2016</h4>
 
-<main>
-  <h1>Version Control</h1>
-  <h4>1/3/2016</h4>
-
-  <section>
-    <p>
-      Ever do something and immediately wish for a do over? Was it in a video game? No? Then you were probably out of luck. With Version Control via Git and Github you can bring the save point into a small part of your life; along with easy collaboration, organization and backup. With Version Control done properly progressive saves of the code you are working on are created by the user, allowing one to roll back to a known good save when that great idea turns bad..
-    </p>
-    <p>
-       Additionally with the branching architecture of Git you have a safe environment to work on your code while not easily endangering your original code. Once your new code is ready to be merged back into the master code that too is easily done with just a few command line entries.
-    </p>
-    <p>
-       Through regular commits(saves) pushed to Github(saved online) your code, and those save points, are not only saved for later use but also available anywhere you have internet access and are also immediately available to any one you wish to share your code with. Conversely through Github you would have easy access to revisions made by anyone you are collaborating with no matter where you, or they, are.
-    </p>
-
-      <!-- copy and paste as many sections as you want to add paragraphs -->
-  </section>
-</main>
+      <section>
+        <p>
+          Ever do something and immediately wish for a do over? Was it in a video game? No? Then you were probably out of luck. With Version Control via Git and Github you can bring the save point into a small part of your life; along with easy collaboration, organization and backup. With Version Control done properly progressive saves of the code you are working on are created by the user, allowing one to roll back to a known good save when that great idea turns bad..
+        </p>
+        <p>
+          Additionally with the branching architecture of Git you have a safe environment to work on your code while not easily endangering your original code. Once your new code is ready to be merged back into the master code that too is easily done with just a few command line entries.
+        </p>
+        <p>
+          Through regular commits(saves) pushed to Github(saved online) your code, and those save points, are not only saved for later use but also available anywhere you have internet access and are also immediately available to any one you wish to share your code with. Conversely through Github you would have easy access to revisions made by anyone you are collaborating with no matter where you, or they, are.
+        </p>
+    </div>
+    <footer>
+      <section id="footer-1"><p>Lorem Ipsum</p></section> <!-- Legal info or similar -->
+      <section id="footer-2"><p>Lorem Ipsum</p></section> <!-- Copyright info or similar -->
+      <section id="footer-3"><p>All content hand crafted by <a href="mailto:jcraigie@cox.net">John Craigie</a></p></section>
+    </footer>
+  </body>
