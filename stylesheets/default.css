@@ -18,6 +18,7 @@ img{
 }
 
 header{
+  background-color:gray;
   position:fixed;
   left:160px;
   top:8px;
@@ -26,6 +27,7 @@ header{
   height:146px;
   width:1116px;
   border:2px solid black;
+  z-index:1;
 }
 
 h1{
@@ -40,7 +42,7 @@ h1{
   height:48px;
 }
 
-#header-link-imgs{
+.header-link-imgs{
   /*border:2px solid black;*/
   display: inline-block;
   height:2em;
@@ -63,12 +65,12 @@ nav>section{
 }
 
 footer{
-  position:absolute;
+  position:fixed;
   width:99%;
   height:4em;
   border:2px solid black;
   bottom:-2px;
-  margin:0 auto;
+  margin:5em auto 0 auto;
   padding:1em 2em;
   background-color:gray;
 }
