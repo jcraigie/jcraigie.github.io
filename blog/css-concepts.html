@@ -16,9 +16,9 @@
       <h1>John Craigie</h1>   <!-- or witty title -->
       <!-- <h2><p>The personal page of John Craigie</p></h2> --> <!-- if witty title is used -->
       <section id="header-links">
-      <figure id="header-link-imgs"><a href="https://twitter.com/ArinB"><img src="imgs/twitter.png" alt="Twitter"/></a></figure>    <!--!Social Media link 1 -->
-      <figure id="header-link-imgs"><a href=#><img src=# alt="imgs/twitter.png"/></a></figure>    <!--!Social Media link 2 placeholder -->
-      <figure id="header-link-imgs"><a href="https://github.com/jcraigie?tab=repositories"><img src="imgs/Github.png" alt="Github"/></a></figure>
+      <figure class="header-link-imgs"><a href="https://twitter.com/ArinB"><img src="imgs/twitter.png" alt="Twitter"/></a></figure>    <!--!Social Media link 1 -->
+      <figure class="header-link-imgs"><a href=#><img src=# alt="imgs/twitter.png"/></a></figure>    <!--!Social Media link 2 placeholder -->
+      <figure class="header-link-imgs"><a href="https://github.com/jcraigie?tab=repositories"><img src="imgs/Github.png" alt="Github"/></a></figure>
       </section>
     </header>
     <nav>
@@ -30,10 +30,21 @@
       <section><a href="mailto:jcraigie@cox.net">Contact me</a></section>
     </nav>
     <div id="blog">
-      <h2>Title</h2>
-      <h3>date</h3>
-      <p>Lorem Ipsum</p>
-      <p>Lorem Ipsum</p>
+      <h2>Classes versus ID's and how to use them.</h2>
+      <h3>January 17th, 2016</h3>
+      <p>Classes versus ID's and how to use them. So you've come along to styling some html with css and you have an element, such as a paragraph, you want to apply some changes to but there are other paragraph's in the code, what do you do? you give that paragraph a unique identifier via a class or an id. it's as simple as:<br />
+
+          <img src="../imgs/3.6 html.PNG"><br />
+
+          <img src="../imgs/3.6 css.PNG"><br />
+          
+          A class would be used when you want apply that styling to multiple elements, not neccesarily of all the same tag type either.
+
+          An id would be used when you want to apply the styling to that one singular element.
+
+          Essentially if there is a possibility you would want to apply the styling in question to any other elements you would use class and id if it is just a one off thing for that element and no others.
+
+          Keep in mind that with the cascading nature of css you can apply multiple sets of styling so placement matters in the stylesheet.</p>
     </div>
     <footer>
       <section id="footer-1"><p>Lorem Ipsum</p></section> <!-- Legal info or similar -->
