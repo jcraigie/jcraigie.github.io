@@ -1,0 +1,28 @@
+#blog{
+  border:1px solid black;
+  background-color:yellow;
+  width:1000px;
+  height:500px;
+  position:relative;
+  left:155px;
+  top:157px;
+}
+
+h2{
+  position:relative;
+  font-size:2em;
+  left:20px;
+}
+
+h3{
+  position:relative;
+  font-size:1.25em;
+  left:20px;
+}
+
+div>p{
+  position:relative;
+  left:20px;
+}
+
+/* ran up to the time limit */

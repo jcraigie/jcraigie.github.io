@@ -1,0 +1,99 @@
+body{
+  background-color:gray;
+  font-family: Garamond, 'Times New Roman', serif;
+}
+
+#profile{
+  position:fixed;
+  height:146px;
+  width:146px;
+  border:2px solid black;
+  background-color:blue;
+  margin:0px;
+}
+
+img{
+  max-height:100%;
+  max-width:100%;
+}
+
+header{
+  position:fixed;
+  left:160px;
+  top:8px;
+  margin:0px;
+  /*padding:10px;*/
+  height:146px;
+  width:1116px;
+  border:2px solid black;
+}
+
+h1{
+  text-align: center;
+  /*border:2px solid black;*/
+}
+
+#header-links{
+  /*border:2px solid black;*/
+  margin:0px auto;
+  width:50%;
+  height:48px;
+}
+
+#header-link-imgs{
+  /*border:2px solid black;*/
+  display: inline-block;
+  height:2em;
+  width:2em;
+  margin:auto 60px;
+}
+
+nav{
+  position:fixed;
+  top:160px;
+  border:2px solid black;
+  width:146px;
+  /*padding:5px;*/
+  margin:5px 0px;
+}
+
+nav>section{
+  margin:2px 0px;
+  font-size:1.25em;
+}
+
+footer{
+  position:absolute;
+  width:99%;
+  height:4em;
+  border:2px solid black;
+  bottom:-2px;
+  margin:0 auto;
+  padding:1em 2em;
+  background-color:gray;
+}
+
+footer>section{
+  display:inline-block;
+  /*border:2px solid black;*/
+  /*margin:0 auto;*/
+  font-size:0.75em;
+  width:200px;
+  height:1.5em;
+  margin:0px 87px;
+}
+
+/*#footer-1{
+  float:left;
+  margin:1em 0px;
+}
+
+#footer-2{
+  margin:1em auto;
+}
+#footer-3{
+  float:right;
+  margin:1em 0px;
+}
+*/
+/* ran up to the time limit */
