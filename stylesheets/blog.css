@@ -25,4 +25,13 @@ div>p{
   left:20px;
 }
 
+#blog-index{
+  border:1px solid black;
+  background-color:white;
+  width:1000px;
+  height:500px;
+  position:relative;
+  left:155px;
+  top:157px;
+}
 /* ran up to the time limit */
