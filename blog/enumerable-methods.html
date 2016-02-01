@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link type="text/css" rel="stylesheet" href="stylesheets/default.css"/>
-    <link type="text/css" rel="stylesheet" href="stylesheets/blog.css"/>
+    <link type="text/css" rel="stylesheet" href="../stylesheets/default.css"/>
+    <link type="text/css" rel="stylesheet" href="../stylesheets/blog.css"/>
     <title>
       John Craigie
     </title>
   </head>
   <body>
     <figure id="profile">
-      <a href="index.html"><img src="imgs/Wireframe-index.png" alt="Profile picture and home button."/></a> <!-- profile picture and link to return home -->
+      <a href="../index.html"><img src="../imgs/Wireframe-index.png" alt="Profile picture and home button."/></a> <!-- profile picture and link to return home -->
       <!-- used a handy picture as a placeholder -->
     </figure>
     <header>
@@ -29,21 +29,20 @@
       <section><a href=#>Resume</a><br /></section> <!-- specifically mentioned in the wireframing assignment though may be redundant with the linkedin being present -->
       <section><a href="mailto:jcraigie@cox.net">Contact me</a></section>
     </nav>
-    <section id="blog">
-      <header>
-      <h2>Blogs</h2><br />  
-      </header>
-      <a href="/blog/git.html">Git</a><br />
-      <a href="/blog/css-concepts.html">Css-concepts</a><br />
-      <a href="/blog/arrays-hashes.html">Arrays and Hashes</a><br />
-      <a href="/blog/enumerable-methods.html">Arrays and Hashes</a><br />
-    </section>
-    <!-- eventually a section would go here rotating through various blog posts and projects maybe -->
+    <div id="blog">
+      <h2>Map</h2>
+      <h3>1/31/2016</h3>
+      <p>Map is a Ruby Enumerable that is similar to .each in that it iterates through an array but it returns the values in a new array after running any code present in the code block. Some think of it as “mapping” the code block to each value of the array before returning the values.
+
+For Example:</p>
+      <img src="../imgs/squared.png" alt="Map graphic"/>
+      <p>Returns [1, 4, 9, 16, 25]
+
+This provides the user with a nicely streamlined way to iterate over an array with their code and returning it to a new array.</p>
+    </div>
     <footer>
       <section id="footer-1"><p>Lorem Ipsum</p></section> <!-- Legal info or similar -->
       <section id="footer-2"><p>Lorem Ipsum</p></section> <!-- Copyright info or similar -->
       <section id="footer-3"><p>All content hand crafted by <a href="mailto:jcraigie@cox.net">John Craigie</a></p></section>
     </footer>
   </body>
-  <!--ran up to the time limit -->
-</html>
